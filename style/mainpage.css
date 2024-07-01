@@ -30,6 +30,10 @@ figure{
     margin-bottom: 1rem; 
     margin-right: 1rem;
     max-width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 auto;
 }
 
 figure figcaption{  
@@ -55,7 +59,7 @@ article{
     padding: 1.5rem; 
     background-color: aliceblue;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 721px) {
 
     article{
         display: flex; 
@@ -76,8 +80,7 @@ article{
     /** (0,0,1) */
     figure{ 
         align-self: center;
-        max-width: 50%; 
-        margin-bottom: 1rem; 
-        margin-right: 1rem; 
+        max-width: 50%;  
+        margin: 1rem 0 1rem 0;
     }
 }

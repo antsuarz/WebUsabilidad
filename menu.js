@@ -6,12 +6,12 @@ document.addEventListener("DOMContentLoaded", function () {
         nav.classList.toggle('show-menu');
     });
 
-    if (window.innerWidth > 600) {
+    if (window.innerWidth > 721) {
         toggleButton.style.display = 'none';
     }
 
     window.addEventListener('resize', () => {
-        if (window.innerWidth > 600) {
+        if (window.innerWidth > 721) {
             nav.classList.remove('show-menu');
             toggleButton.style.display = 'none';
         } else {

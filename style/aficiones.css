@@ -40,5 +40,15 @@ section:first-of-type  {
 section:first-of-type > p{ 
     grid-column: 1 /span 2; 
 }  
+
+@media screen and (max-width: 721px) {
+
+    
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
  
  
