@@ -1,0 +1,34 @@
+Estructura:
+	los html se componen de:
+		Un <title> descriptivo en el <head>.
+		Un <header> en el <body> con un <h1> con mi nombre y la barra de navegacion <nav> que contiene enlaces a los demas html <a>
+		Un <main> que se compone en su totalidad por un <article> con un <h2> y varias <section>, las cuales contienen su <h2> y distinta información.
+		Un <footer> con el texto: Lenguajes y Estandares para la Web - Master Universitario en Ingeniería Web 23/24 - Universidad de Oviedo.
+		
+Contenido:
+	/img es la carpeta que contiene las imágenes utilizadas por la página.
+	/style contiene los css:
+		basic-style.css: tiene las normas de estilo generales de la página (body, nav, article, section..)
+		lista-media.css: tiene las normas de estilo generales de los ficheros series.html y videojuegos.html
+		el resto: son especializaciones para cada uno de los ficheros html.
+	index.html: contiene información personal, una fotografía, y modos de contacto
+	aficiones.html: contiene información acerca de mis aficiones, con videos e imagenes
+	balonmano.html: contiene información acerca de mi práctica del balonmano, con imagenes y videos.
+	series.html y videojuegos.html: tienen la misma estructura. Son listados, que contienen imagenes y texto
+		
+CSS Colors:
+	black y white en algunos color.
+	aliceblue como fondo para los sections.
+
+Layouts:
+
+Grid:
+	He usado grid como layout principal en el index y en balonmano. Aunque está presente en todos los css, para organizar elementos
+	dentro de las sections.
+
+Flex:
+	He usado flex como layout principal en aficiones, series y videojuegos, con la direction de column.
+	Tambien está presente en la barra de navegación, para distribuir los enlaces en linea.
+	Tambien lo he usado para centrar elementos en algunos casos.
+
+Tenia otros tipos de layouts, como inline-block o block, pero los fui sustituyendo por Flex y ya no queda ninguno.

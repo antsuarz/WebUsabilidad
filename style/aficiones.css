@@ -1,0 +1,44 @@
+/** (0,1,2) */
+nav a:nth-of-type(2) { 
+    background-color: #16af89;
+    border-radius: 10%;
+    color: black; 
+    cursor: not-allowed; 
+    pointer-events: none; 
+}
+/** (0,0,1) */
+article {
+    display: flex; 
+    flex-direction: column;
+}
+/** (0,0,1) */
+section{
+    margin-bottom: 1rem;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+/** (0,0,2) */
+section figure{
+    align-self: center; 
+}
+/** (0,0,2) */
+section p{
+    grid-column: 1 / span 3;
+}
+/** (0,0,3) */
+section figure img{
+    max-width: 80%; 
+}
+
+/** Balonmano */
+
+ /** (0,1,1) */
+section:first-of-type  { 
+    grid-template-columns: 1fr 1fr; 
+}
+ /** (0,1,2) */
+section:first-of-type > p{ 
+    grid-column: 1 /span 2; 
+}  
+ 
+ 
