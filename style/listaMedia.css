@@ -33,6 +33,9 @@ section ul{
     grid-row: 2;
 }
 
+figcaption{
+    display: none;
+}
 @media screen and (max-width: 721px) {
     section{
         display: flex;
